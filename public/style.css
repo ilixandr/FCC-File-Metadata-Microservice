@@ -27,15 +27,17 @@ ul {
 a {
 	color: #2574A9;
 }
-
-input {
-  display: block;
-  position: relative;
-  margin: 10px auto;
-
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-input#button {
-  width: 230px;
+input {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+  width: 20%;
 }
 .view {
   position:relative;
